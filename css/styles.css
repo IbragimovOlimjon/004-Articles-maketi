@@ -153,16 +153,16 @@ only screen and (                min-resolution: 2dppx) {
     line-height: 22px;
     letter-spacing: 2px;
     color: #222222;
-    padding-bottom: 24px;
-    margin-left: 54px;
+    margin-bottom: 24px;
     margin-top: 54px;
     font-family: 'Bebas Neue', "Roboto Condensed", "Arial", "sans-serif";
 }
 
 .iteam-latest-videos-img {
     width: 160px;
-    height: 90px;
+    height: auto;
     border-radius: 4px;
+    margin-right: 16px;
 }
 
 .iteam-latest-videos-link {
@@ -177,15 +177,19 @@ only screen and (                min-resolution: 2dppx) {
 
 .iteam-latest-videos-meta {
     display: flex;
-    margin-bottom: 16px;
+    margin-bottom: 10px;
 }
 
 .latest-videos-iteam {
     list-style: none;
+    margin: 0;
+    margin-bottom: 10px;
+    display: flex;
 }
 
+
 .iteam-latest-videos-info {
-    padding: 16px 16px;
+    
     
 }
 .iteam-latest-videos-heading {
@@ -194,7 +198,7 @@ only screen and (                min-resolution: 2dppx) {
 }
 
 .iteam-latest-videos-published-at {
-    padding-right: 24px;
+    margin-right: 24px;
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
@@ -203,10 +207,10 @@ only screen and (                min-resolution: 2dppx) {
 
 .iteam-latest-videos {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     padding: 0px;
+    margin: 0;
     margin-bottom: 10px;
-    
 }
 
 .iteam-latest-videos-views {
@@ -232,4 +236,18 @@ only screen and (                min-resolution: 2dppx) {
     margin-bottom: 24px;
 }
 
+.latest-videos-link {
+    margin-top: 23px;
+}
 
+.latest-videos-link-reolad {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #fff;
+    background-color: #1E90FF;
+    padding: 16px 209px;
+    border-radius: 4px;
+}
