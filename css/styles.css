@@ -18,11 +18,11 @@ body {
     height: 100%;
     padding: 0;
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    background-color: #fff;
     color: #000;
+    background-color: #fff;
+    font-family: 'Roboto Condensed', "Arial", "sans-serif";
 }
 
 img {
@@ -64,6 +64,7 @@ img {
     width: 100%;
     max-width: 600px;
     display: flex;
+    padding: 24px;
     justify-content: center;
     align-items: center;
     background-image: url("../img/fon-bg.jpg");
@@ -74,17 +75,19 @@ img {
 
 .hero-content {
     max-width: 285px;
-
-
+    
+    
 }
 .hero-heading {
-margin-top: 0;
-margin-bottom: 24px;
-font-size: 24px;
-line-height: normal;
-letter-spacing: 2px;
-color: #fff;
-text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 24px;
+    font-size: 24px;
+    line-height: normal;
+    letter-spacing: 2px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', "Roboto Condensed", "Arial", "sans-serif";
 }
 
 .main-link {
@@ -93,11 +96,22 @@ text-transform: uppercase;
     color: #fff;
     text-decoration: none;
     letter-spacing: 2px;
+    font-family: 'Bebas Neue', "Roboto Condensed", "Arial", "sans-serif";
 }
 
 .main-link-inner {
     display: flex;
-padding: 12px 24px;
+    padding: 12px 24px;
+    transition: 0.5s ease;
+}
+
+.main-link-inner:hover {
+    opacity: 0.6;
+    color: #fff;
+}
+
+.main-link-inner:active {
+    opacity: 0.8;
 }
 
 .main-link-inner::before {
@@ -110,13 +124,6 @@ padding: 12px 24px;
     background-size: contain;
     background-position: center center;
 }
-
-.main-link-text {
-
-}
-
-
-
 
 /* RETINA BG */
 
@@ -131,3 +138,98 @@ only screen and (                min-resolution: 2dppx) {
         background-image: url("../img/fon-bg@2x.png");
     }
 }
+
+/* MAIN */
+
+.latest-videos {
+    width: 100%;
+    max-width: 600px;
+}
+
+
+.latest-videos-heading {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 2px;
+    color: #222222;
+    padding-bottom: 24px;
+    margin-left: 54px;
+    margin-top: 54px;
+    font-family: 'Bebas Neue', "Roboto Condensed", "Arial", "sans-serif";
+}
+
+.iteam-latest-videos-img {
+    width: 160px;
+    height: 90px;
+    border-radius: 4px;
+}
+
+.iteam-latest-videos-link {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 2px;
+    color: #222222;
+    font-family: 'Bebas Neue', "Roboto Condensed", "Arial", "sans-serif";
+}
+
+.iteam-latest-videos-meta {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.latest-videos-iteam {
+    list-style: none;
+}
+
+.iteam-latest-videos-info {
+    padding: 16px 16px;
+    
+}
+.iteam-latest-videos-heading {
+    margin-bottom: 4px;
+    margin: 0;
+}
+
+.iteam-latest-videos-published-at {
+    padding-right: 24px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #888888;
+}
+
+.iteam-latest-videos {
+    display: flex;
+    align-items: flex-start;
+    padding: 0px;
+    margin-bottom: 10px;
+    
+}
+
+.iteam-latest-videos-views {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #666666;
+}
+
+.latest-videos-list {
+    margin: 0;
+    padding: 0;
+}
+
+.latest-videos {
+    padding-right: 54px;
+    padding-left: 54px;
+}
+
+.letest-videos-line {
+    color: #999999;
+    margin: 0;
+    margin-bottom: 24px;
+}
+
+
