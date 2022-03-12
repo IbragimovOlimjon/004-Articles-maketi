@@ -208,11 +208,22 @@ only screen and (                min-resolution: 2dppx) {
 }
 
 .iteam-latest-videos-published-at {
+    display: flex;
     margin-right: 24px;
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
     color: #888888;
+}
+
+.iteam-latest-videos-published-at::before {
+    background-image: url("../img/Vector.svg");
+    content: "";
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-right: 4px;
 }
 
 .iteam-latest-videos {
@@ -224,11 +235,22 @@ only screen and (                min-resolution: 2dppx) {
 }
 
 .iteam-latest-videos-views {
+    display: flex;
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
     color: #666666;
 }
+.iteam-latest-videos-views::before {
+    background-image: url("../img/visibility_black_24dp\ 1.svg");
+    content: "";
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+}
+
 
 .latest-videos-list {
     margin: 0;
