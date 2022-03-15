@@ -25,6 +25,13 @@ body {
     font-family: 'Roboto Condensed', "Arial", "sans-serif";
 }
 
+*:focus {
+    outline-color: #1e90ff;                             
+    outline-offset: 2px;
+    outline-width: 2px;
+    outline-style: dashed;
+}
+
 img {
     max-width: 100%;
     height: auto;
@@ -107,12 +114,12 @@ img {
 }
 
 .main-link:hover {
-    opacity: 0.6;
+    opacity: 0.8;
     background-color: rgba(30, 144, 255, 0.6);
 }
 
 .main-link:active {
-    opacity: 0.8;
+    opacity: 0.6;
 }
 
 .main-link-inner::before {
